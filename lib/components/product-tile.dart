@@ -3,15 +3,18 @@ import 'package:grocery_app/colos.dart';
 import 'package:grocery_app/models/product-model.dart';
 
 class productTile extends StatelessWidget {
-  const productTile({super.key, required this.product, required this.onTap, required this.remove, required this.icon});
+  const productTile(
+      {super.key,
+      required this.product,
+      required this.onTap,
+      required this.remove,
+      required this.icon});
   final Product product;
   final void Function()? onTap;
   final void Function()? remove;
   final Widget icon;
   @override
   Widget build(BuildContext context) {
-
-
     return Container(
       padding: const EdgeInsets.only(
         left: 10,
@@ -28,7 +31,6 @@ class productTile extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-
               //product image
               Container(
                 height: 55,
@@ -43,7 +45,10 @@ class productTile extends StatelessWidget {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(product.name),
+                  Text(
+                    product.name,
+                    style: TextStyle(fontSize: 13),
+                  ),
                   const SizedBox(
                     height: 5,
                   ),
@@ -63,7 +68,6 @@ class productTile extends StatelessWidget {
             children: [
               Column(
                 children: [
-
                   //add to cart icon
                   GestureDetector(
                     onTap: onTap,
@@ -89,8 +93,8 @@ class productTile extends StatelessWidget {
                     child: Container(
                       decoration: const BoxDecoration(
                           color: Colors.white70,
-                          borderRadius:
-                              BorderRadius.only(bottomLeft: Radius.circular(12))),
+                          borderRadius: BorderRadius.only(
+                              bottomLeft: Radius.circular(12))),
                       padding: const EdgeInsets.all(6),
                       child: const Icon(
                         Icons.remove,

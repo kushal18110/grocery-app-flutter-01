@@ -66,7 +66,7 @@ class _HomeTabState extends State<HomeTab> {
                                     children: [
                                       const Text(
                                         'Categories',
-                                        style: TextStyle(fontSize: 23),
+                                        style: TextStyle(fontSize: 15),
                                       ),
                                       Container(
                                           padding: const EdgeInsets.all(7),
@@ -76,6 +76,7 @@ class _HomeTabState extends State<HomeTab> {
                                           child: Text(
                                             'Explore All',
                                             style: TextStyle(
+                                                fontSize: 12,
                                                 color: Colors.grey[660]),
                                           )),
                                     ],
@@ -109,7 +110,7 @@ class _HomeTabState extends State<HomeTab> {
                                     children: [
                                       const Text(
                                         'Top Products',
-                                        style: TextStyle(fontSize: 23),
+                                        style: TextStyle(fontSize: 15),
                                       ),
                                       Container(
                                           padding: const EdgeInsets.all(7),
@@ -119,6 +120,7 @@ class _HomeTabState extends State<HomeTab> {
                                           child: Text(
                                             'Explore All',
                                             style: TextStyle(
+                                                fontSize: 12,
                                                 color: Colors.grey[660]),
                                           )),
                                     ],
@@ -149,7 +151,7 @@ class _HomeTabState extends State<HomeTab> {
                         children: [
                           const Text(
                             'Bakery',
-                            style: TextStyle(fontSize: 23),
+                            style: TextStyle(fontSize: 15),
                           ),
                           GestureDetector(
                             onTap: () {
@@ -165,7 +167,8 @@ class _HomeTabState extends State<HomeTab> {
                                     borderRadius: curve),
                                 child: Text(
                                   'Explore All',
-                                  style: TextStyle(color: Colors.grey[660]),
+                                  style: TextStyle(
+                                      color: Colors.grey[660], fontSize: 12),
                                 )),
                           ),
                         ],
@@ -194,7 +197,7 @@ class _HomeTabState extends State<HomeTab> {
                         children: [
                           const Text(
                             'Fruits',
-                            style: TextStyle(fontSize: 23),
+                            style: TextStyle(fontSize: 15),
                           ),
                           GestureDetector(
                             onTap: () {
@@ -210,7 +213,8 @@ class _HomeTabState extends State<HomeTab> {
                                     borderRadius: curve),
                                 child: Text(
                                   'Explore All',
-                                  style: TextStyle(color: Colors.grey[660]),
+                                  style: TextStyle(
+                                      color: Colors.grey[660], fontSize: 12),
                                 )),
                           ),
                         ],
@@ -239,7 +243,7 @@ class _HomeTabState extends State<HomeTab> {
                         children: [
                           const Text(
                             'Vegetables',
-                            style: TextStyle(fontSize: 23),
+                            style: TextStyle(fontSize: 15),
                           ),
                           GestureDetector(
                             onTap: () {
@@ -255,7 +259,8 @@ class _HomeTabState extends State<HomeTab> {
                                     borderRadius: curve),
                                 child: Text(
                                   'Explore All',
-                                  style: TextStyle(color: Colors.grey[660]),
+                                  style: TextStyle(
+                                      color: Colors.grey[660], fontSize: 12),
                                 )),
                           ),
                         ],
@@ -284,7 +289,7 @@ class _HomeTabState extends State<HomeTab> {
                         children: [
                           const Text(
                             'Drinks',
-                            style: TextStyle(fontSize: 23),
+                            style: TextStyle(fontSize: 15),
                           ),
                           GestureDetector(
                             onTap: () {
@@ -300,7 +305,8 @@ class _HomeTabState extends State<HomeTab> {
                                     borderRadius: curve),
                                 child: Text(
                                   'Explore All',
-                                  style: TextStyle(color: Colors.grey[660]),
+                                  style: TextStyle(
+                                      color: Colors.grey[660], fontSize: 12),
                                 )),
                           ),
                         ],
@@ -319,8 +325,6 @@ class _HomeTabState extends State<HomeTab> {
                     const SizedBox(
                       height: 20,
                     ),
-
-                    
                   ],
                 );
               }

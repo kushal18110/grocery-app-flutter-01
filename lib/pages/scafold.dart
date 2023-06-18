@@ -51,6 +51,7 @@ class _HomePageState extends State<HomePage> {
               tabs: [
                 const GButton(
                   icon: Icons.home,
+                  iconSize: 20,
                   text: 'Home',
                   textStyle: TextStyle(fontWeight: FontWeight.normal),
                   textColor: Colors.black,
@@ -59,6 +60,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 const GButton(
                   icon: Icons.favorite_border,
+                  iconSize: 20,
                   text: 'Liked',
                   textStyle: TextStyle(fontWeight: FontWeight.normal),
                   textColor: Colors.black,
@@ -67,6 +69,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 const GButton(
                   icon: Icons.shopping_bag_outlined,
+                  iconSize: 20,
                   text: 'Cart',
                   textStyle: TextStyle(fontWeight: FontWeight.normal),
                   textColor: Colors.black,
@@ -75,6 +78,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 const GButton(
                   icon: Icons.account_circle_outlined,
+                  iconSize: 20,
                   text: 'Profile',
                   textStyle: TextStyle(fontWeight: FontWeight.normal),
                   textColor: Colors.black,

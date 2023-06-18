@@ -14,7 +14,7 @@ class allProducts extends StatefulWidget {
     super.key,
     required this.selectedIndex,
   });
-    int  selectedIndex;
+  int selectedIndex;
 
   @override
   State<allProducts> createState() => _allProductsState();
@@ -224,7 +224,7 @@ class _allProductsState extends State<allProducts> {
                                           item.isLiked
                                               ? Icons.favorite
                                               : Icons.favorite_border,
-                                          size: 23,
+                                          size: 20,
                                           color:
                                               item.isLiked ? Colors.red : null,
                                         ),
@@ -273,7 +273,7 @@ class _allProductsState extends State<allProducts> {
                                         item.isLiked
                                             ? Icons.favorite
                                             : Icons.favorite_border,
-                                        size: 23,
+                                        size: 20,
                                         color: item.isLiked ? Colors.red : null,
                                       ),
                                     )),
@@ -322,7 +322,7 @@ class _allProductsState extends State<allProducts> {
                                         item.isLiked
                                             ? Icons.favorite
                                             : Icons.favorite_border,
-                                        size: 23,
+                                        size: 20,
                                         color: item.isLiked ? Colors.red : null,
                                       ),
                                     )),
@@ -371,7 +371,7 @@ class _allProductsState extends State<allProducts> {
                                         item.isLiked
                                             ? Icons.favorite
                                             : Icons.favorite_border,
-                                        size: 23,
+                                        size: 20,
                                         color: item.isLiked ? Colors.red : null,
                                       ),
                                     )),

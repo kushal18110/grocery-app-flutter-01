@@ -27,7 +27,10 @@ class CategoryTile extends StatelessWidget {
             height: 5,
           ),
 
-          Text(item.itemName)
+          Text(
+            item.itemName,
+            style: TextStyle(fontSize: 13),
+          )
         ],
       ),
     );

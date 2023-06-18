@@ -48,7 +48,7 @@ class bakeryTile extends StatelessWidget {
                     children: [
                       Text(
                         item.name,
-                        style: TextStyle(fontSize: 16),
+                        style: TextStyle(fontSize: 13),
                       ),
 
                       SizedBox(

@@ -17,7 +17,6 @@ class MyappBar extends StatelessWidget implements PreferredSizeWidget {
     }
 
     return Consumer<Products>(builder: (context, value, child) {
-    
       return AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
@@ -32,15 +31,6 @@ class MyappBar extends StatelessWidget implements PreferredSizeWidget {
         actions: [
           Row(
             children: [
-              //search icon
-              Icon(
-                Icons.search,
-                color: black,
-              ),
-              const SizedBox(
-                width: 10,
-              ),
-
               //badge
               Badges.Badge(
                 showBadge: value.userCart.length != 0 ? true : false,
